@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482DE03319BCC20800CED682 /* CacauModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 482DE03219BCC20800CED682 /* CacauModelError.m */; };
+		482DE03619BCC71D00CED682 /* CacauModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 482DE03519BCC71D00CED682 /* CacauModelClassProperty.m */; };
+		482DE03819BCE39A00CED682 /* QueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482DE03719BCE39A00CED682 /* QueryTests.m */; };
+		484F1B3119BC967D00B953BC /* Cacau.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 484F1B3019BC967D00B953BC /* Cacau.h */; };
+		484F1B3319BC967D00B953BC /* Cacau.m in Sources */ = {isa = PBXBuildFile; fileRef = 484F1B3219BC967D00B953BC /* Cacau.m */; };
+		484F1B4619BC979700B953BC /* CacauModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 484F1B4519BC979700B953BC /* CacauModel.m */; };
+		484F1B4919BC97AF00B953BC /* CacauQueryBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 484F1B4819BC97AF00B953BC /* CacauQueryBuilder.m */; };
+		484F1B4C19BC97E300B953BC /* CacauMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 484F1B4B19BC97E300B953BC /* CacauMapper.m */; };
+		484F1B4F19BCB78B00B953BC /* CacauConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 484F1B4E19BCB78B00B953BC /* CacauConnection.m */; };
+		5E12B71756FE415180D1F4B5 /* libPods-Cacau.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF5A36A9D24358A065A2E1 /* libPods-Cacau.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		484F1B2B19BC967D00B953BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				484F1B3119BC967D00B953BC /* Cacau.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		482DE03119BCC20800CED682 /* CacauModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacauModelError.h; sourceTree = "<group>"; };
+		482DE03219BCC20800CED682 /* CacauModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacauModelError.m; sourceTree = "<group>"; };
+		482DE03419BCC71D00CED682 /* CacauModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacauModelClassProperty.h; sourceTree = "<group>"; };
+		482DE03519BCC71D00CED682 /* CacauModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacauModelClassProperty.m; sourceTree = "<group>"; };
+		482DE03719BCE39A00CED682 /* QueryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryTests.m; sourceTree = "<group>"; };
+		484F1B2D19BC967D00B953BC /* libCacau.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCacau.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		484F1B3019BC967D00B953BC /* Cacau.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cacau.h; sourceTree = "<group>"; };
+		484F1B3219BC967D00B953BC /* Cacau.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cacau.m; sourceTree = "<group>"; };
+		484F1B3819BC967D00B953BC /* CacauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CacauTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		484F1B3B19BC967D00B953BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484F1B4419BC979700B953BC /* CacauModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacauModel.h; sourceTree = "<group>"; };
+		484F1B4519BC979700B953BC /* CacauModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacauModel.m; sourceTree = "<group>"; };
+		484F1B4719BC97AF00B953BC /* CacauQueryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacauQueryBuilder.h; sourceTree = "<group>"; };
+		484F1B4819BC97AF00B953BC /* CacauQueryBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacauQueryBuilder.m; sourceTree = "<group>"; };
+		484F1B4A19BC97E300B953BC /* CacauMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacauMapper.h; sourceTree = "<group>"; };
+		484F1B4B19BC97E300B953BC /* CacauMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacauMapper.m; sourceTree = "<group>"; };
+		484F1B4D19BCB78B00B953BC /* CacauConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacauConnection.h; sourceTree = "<group>"; };
+		484F1B4E19BCB78B00B953BC /* CacauConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacauConnection.m; sourceTree = "<group>"; };
+		ABFF5A36A9D24358A065A2E1 /* libPods-Cacau.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cacau.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F000701C43DA4095A43E2301 /* Pods-Cacau.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cacau.xcconfig"; path = "Pods/Pods-Cacau.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484F1B2A19BC967D00B953BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E12B71756FE415180D1F4B5 /* libPods-Cacau.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484F1B3519BC967D00B953BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484F1B2419BC967D00B953BC = {
+			isa = PBXGroup;
+			children = (
+				F000701C43DA4095A43E2301 /* Pods-Cacau.xcconfig */,
+				484F1B2F19BC967D00B953BC /* Cacau */,
+				484F1B3919BC967D00B953BC /* CacauTests */,
+				484F1B2E19BC967D00B953BC /* Products */,
+				6DD249AA7C154A1D964B06B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		484F1B2E19BC967D00B953BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484F1B2D19BC967D00B953BC /* libCacau.a */,
+				484F1B3819BC967D00B953BC /* CacauTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484F1B2F19BC967D00B953BC /* Cacau */ = {
+			isa = PBXGroup;
+			children = (
+				484F1B3019BC967D00B953BC /* Cacau.h */,
+				484F1B3219BC967D00B953BC /* Cacau.m */,
+				484F1B4419BC979700B953BC /* CacauModel.h */,
+				484F1B4519BC979700B953BC /* CacauModel.m */,
+				484F1B4719BC97AF00B953BC /* CacauQueryBuilder.h */,
+				484F1B4819BC97AF00B953BC /* CacauQueryBuilder.m */,
+				484F1B4A19BC97E300B953BC /* CacauMapper.h */,
+				484F1B4B19BC97E300B953BC /* CacauMapper.m */,
+				484F1B4D19BCB78B00B953BC /* CacauConnection.h */,
+				484F1B4E19BCB78B00B953BC /* CacauConnection.m */,
+				482DE03119BCC20800CED682 /* CacauModelError.h */,
+				482DE03219BCC20800CED682 /* CacauModelError.m */,
+				482DE03419BCC71D00CED682 /* CacauModelClassProperty.h */,
+				482DE03519BCC71D00CED682 /* CacauModelClassProperty.m */,
+			);
+			path = Cacau;
+			sourceTree = "<group>";
+		};
+		484F1B3919BC967D00B953BC /* CacauTests */ = {
+			isa = PBXGroup;
+			children = (
+				484F1B3A19BC967D00B953BC /* Supporting Files */,
+				482DE03719BCE39A00CED682 /* QueryTests.m */,
+			);
+			path = CacauTests;
+			sourceTree = "<group>";
+		};
+		484F1B3A19BC967D00B953BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				484F1B3B19BC967D00B953BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DD249AA7C154A1D964B06B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFF5A36A9D24358A065A2E1 /* libPods-Cacau.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484F1B2C19BC967D00B953BC /* Cacau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484F1B3E19BC967D00B953BC /* Build configuration list for PBXNativeTarget "Cacau" */;
+			buildPhases = (
+				257A3B4B967B44789FC9FE49 /* Check Pods Manifest.lock */,
+				484F1B2919BC967D00B953BC /* Sources */,
+				484F1B2A19BC967D00B953BC /* Frameworks */,
+				484F1B2B19BC967D00B953BC /* CopyFiles */,
+				D9BCC19BDFE74407B0BA456C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cacau;
+			productName = Cacau;
+			productReference = 484F1B2D19BC967D00B953BC /* libCacau.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		484F1B3719BC967D00B953BC /* CacauTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484F1B4119BC967D00B953BC /* Build configuration list for PBXNativeTarget "CacauTests" */;
+			buildPhases = (
+				484F1B3419BC967D00B953BC /* Sources */,
+				484F1B3519BC967D00B953BC /* Frameworks */,
+				484F1B3619BC967D00B953BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CacauTests;
+			productName = CacauTests;
+			productReference = 484F1B3819BC967D00B953BC /* CacauTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484F1B2519BC967D00B953BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Bmobile;
+				TargetAttributes = {
+					484F1B2C19BC967D00B953BC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					484F1B3719BC967D00B953BC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 484F1B2819BC967D00B953BC /* Build configuration list for PBXProject "Cacau" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 484F1B2419BC967D00B953BC;
+			productRefGroup = 484F1B2E19BC967D00B953BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484F1B2C19BC967D00B953BC /* Cacau */,
+				484F1B3719BC967D00B953BC /* CacauTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484F1B3619BC967D00B953BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		257A3B4B967B44789FC9FE49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BCC19BDFE74407B0BA456C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Cacau-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484F1B2919BC967D00B953BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484F1B4919BC97AF00B953BC /* CacauQueryBuilder.m in Sources */,
+				484F1B3319BC967D00B953BC /* Cacau.m in Sources */,
+				484F1B4C19BC97E300B953BC /* CacauMapper.m in Sources */,
+				482DE03619BCC71D00CED682 /* CacauModelClassProperty.m in Sources */,
+				484F1B4619BC979700B953BC /* CacauModel.m in Sources */,
+				482DE03319BCC20800CED682 /* CacauModelError.m in Sources */,
+				484F1B4F19BCB78B00B953BC /* CacauConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484F1B3419BC967D00B953BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482DE03819BCE39A00CED682 /* QueryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		484F1B3C19BC967D00B953BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		484F1B3D19BC967D00B953BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484F1B3F19BC967D00B953BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F000701C43DA4095A43E2301 /* Pods-Cacau.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		484F1B4019BC967D00B953BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F000701C43DA4095A43E2301 /* Pods-Cacau.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		484F1B4219BC967D00B953BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CacauTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		484F1B4319BC967D00B953BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CacauTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484F1B2819BC967D00B953BC /* Build configuration list for PBXProject "Cacau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484F1B3C19BC967D00B953BC /* Debug */,
+				484F1B3D19BC967D00B953BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484F1B3E19BC967D00B953BC /* Build configuration list for PBXNativeTarget "Cacau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484F1B3F19BC967D00B953BC /* Debug */,
+				484F1B4019BC967D00B953BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484F1B4119BC967D00B953BC /* Build configuration list for PBXNativeTarget "CacauTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484F1B4219BC967D00B953BC /* Debug */,
+				484F1B4319BC967D00B953BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484F1B2519BC967D00B953BC /* Project object */;
+}
